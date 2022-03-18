@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #D0DDC0;
+  }
+  #container{
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+ 
+  .container{
+    padding-top: 50px;
+    margin-top: 20px;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  input{    
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  #container .container .a1{
+    padding: 10px;
+  }
+  #container .container .a2{
+    padding: 10px;
+  }
+  #container .container .a3{
+    padding: 10px;
+  }
+  #container .container .a4{
+    padding: 10px;
+  }
+  #container .container .a1 input{
+    background-color: #D7B4B4;
+    color: #fff;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+  }
+  #container .container .a2 input{
+    background-color: #C4C4C4;
+    color: #fff;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+  }
+  #container .container .a3 input{
+    background-color: #D0EFD9;
+    color: #333;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  #container .container .a4 input{
+    background-color: #C4C4C4;
+    color: #fff;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+  }
+  #container .container button{
+    display: block;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    background-color: #374448;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
